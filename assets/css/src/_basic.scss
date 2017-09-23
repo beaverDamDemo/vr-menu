@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Lumberjack';
+	src: url('../../assets/fonts/Lumberjack-Regular.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lumberjack, cursive;
+	letter-spacing: 2px;
+}
+
+main {
+	position: absolute;
+	width: 640px;
+	height: 480px;
+}
