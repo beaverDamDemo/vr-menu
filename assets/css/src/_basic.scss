@@ -10,9 +10,27 @@
 	font-family: Lumberjack, cursive;
 	letter-spacing: 2px;
 }
-
 main {
-	position: absolute;
-	width: 640px;
-	height: 480px;
+	position: relative;
+	margin: 0 auto;
+}
+@media screen and (max-width: 799px) {
+	main {
+		width: 640px;
+		height: 480px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	main {
+		width: 800px;
+		height: 600px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	main {
+		width: 1024px;
+		height: 768px;
+	}
 }
